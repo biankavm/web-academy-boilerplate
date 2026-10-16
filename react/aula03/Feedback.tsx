@@ -13,7 +13,7 @@ export function Feedback({
 }) {
   return (
     <div className='d-flex flex-column align-items-center justify-content-center py-5 text-center'>
-      <i className={`bi ${icon} fs-1 mb-3 text-secondary`} />
+      <i className={`bi bi-${icon} fs-1 mb-3 text-secondary`} />
 
       <h5 className='mb-2'>{title}</h5>
 
