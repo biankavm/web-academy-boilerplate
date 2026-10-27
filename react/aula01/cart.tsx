@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 export default function Cart() {
   const getProductTotal = (price: number, quantity: number): number =>
@@ -61,7 +61,7 @@ export default function Cart() {
                   </thead>
                   <tbody>
                     <tr key='prod-1'>
-                      <td>Monitor UltraWide 34"</td>
+                      <td>Monitor UltraWide 34</td>
                       <td>R$ {(2200).toFixed(2)}</td>
                       <td>1</td>
 
@@ -106,7 +106,9 @@ export default function Cart() {
 
           <div className='card mb-4 border-0 shadow-sm rounded-4'>
             <div className='card-body'>
-              <h5 className='card-title mb-4 fw-semibold'>Resumo do Carrinho</h5>
+              <h5 className='card-title mb-4 fw-semibold'>
+                Resumo do Carrinho
+              </h5>
               <p className='card-text fw-medium'>Quantidade total: 5</p>
               <p className='card-text fw-medium'>
                 Valor total: R${(3800).toFixed(2)}
